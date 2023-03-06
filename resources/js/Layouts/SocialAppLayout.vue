@@ -14,7 +14,6 @@ import FileGifBox from "vue-material-design-icons/FileGifBox.vue";
 import Emoticon from "vue-material-design-icons/Emoticon.vue";
 import ArrowLeft from "vue-material-design-icons/ArrowLeft.vue";
 import MenuItem from "@/Components/MenuItem.vue";
-import logo_leaf from "@/assets/logo_leaf.png";
 
 let createTweet = ref(false);
 let tweet = ref("");
@@ -66,7 +65,7 @@ const textareaInput = (e) => {
                     class="lg:w-full mt-8 ml-2 text-white font-extrabold text-[22px] bg-[#1a7a33] p-3 px-3 rounded-full cursor-pointer ">
                     <span class="lg:block hidden">Leaf it</span>
                     <span class="block lg:hidden">
-                        <Feather />
+                        <Feather /> 
                     </span>
                 </button>
             </div>
