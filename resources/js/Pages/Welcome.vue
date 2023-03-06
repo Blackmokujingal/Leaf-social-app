@@ -7,7 +7,7 @@ import SocialAppLayout from '@/Layouts/SocialAppLayout.vue';
     <Head title="Welcome" />
 
     <SocialAppLayout>
-        <div class="bg-red-900">Welcome to you </div>
+        <!-- <div class="bg-red-900">Welcome to you </div> -->
     </SocialAppLayout>    
 </template>
 
